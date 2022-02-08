@@ -1,7 +1,7 @@
 .main_divtag{
   background-color: rgb(27, 105, 158);
   width: 482px;
-  height: 800px;
+  height: 799px;
   margin-left: 600px;
   margin-top: 100px;
   padding-left: 100px;
@@ -11,7 +11,13 @@
   bottom:50px;
   right: 180px;
 } 
-
+.p{
+  margin-left: 25%;
+  margin-top: 6%;
+}
+.body{
+  background-color: rgb(28, 36, 109);
+}
 h2{
   color: white;
   padding-bottom: 25px;
@@ -48,6 +54,9 @@ h2{
   background-color: rgb(248, 245, 245);  
 
 }
+.text-left-regi {
+  background-color: rgb(28, 36, 109);
+}
 
 .btn input{
   width: 280px;
@@ -56,7 +65,7 @@ h2{
   color: white;
   border-radius: 5px;
   height: 40px; 
-  margin-top: 0px; 
+  margin-top: 7%; 
    align-items: center;
    
     text-align: center;
