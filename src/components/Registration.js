@@ -155,9 +155,10 @@ function Registration(props) {
         userDetailsCopy[event.target.name] = event.target.value
         setuserDetails(userDetailsCopy)
     }
-  return <div className='text-left regi'>
+  return <div  className='text-left-regi'>
          <div className="register col-4 m-auto" >
-            <p className='fsize text-center text-white font-weight-normal'>REGISTRATION FORM</p>
+          
+            <p className='fsize text-center text-white font-weight-normal'>Register your account</p>
             <form className="shadow p-3 mb-5 bg-white rounded text-left" >
                 <div className="form-group p-2 ">
                     <label className='text-left'>Name </label><br />
@@ -235,7 +236,7 @@ function Registration(props) {
                     <button className="form-control btn btn-success" type="submit" onClick={submit} >Sign Up</button>
                 </div>
                 <div>
-                    <p>Already having an account <Link to='/login'>Login</Link></p>
+                    <p className="p">Already having an account ? <Link to='/login'>Sign in.</Link></p>
                 </div>
 
             </form>

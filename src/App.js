@@ -35,8 +35,8 @@ function App() {
               <Nav className="me-auto">
                 {showLogin ? (
                   <div>
-                    <Link to="/login">Login</Link>
-                    <Link to="/registration">Register</Link>
+                    <Link  to="/login">Login</Link> 
+                    <Link style={{marginLeft:'20px'}} to="/registration">Register</Link>
                   </div>
                 ) : (
                   <div style={{ display: "flex" }}>
