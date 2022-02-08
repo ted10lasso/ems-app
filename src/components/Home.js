@@ -1,9 +1,18 @@
-import React from 'react';
+import React from "react"
 
 function Home() {
-  return <div>
-    Home
-  </div>;
+  return (
+    <div
+      style={{
+        textAlign: "center",
+        fontWeight: "bold",
+        fontSize: "50px",
+        backgroundColor: "lightcyan",
+      }}
+    >
+      Login to get Employee Details!
+    </div>
+  )
 }
 
-export default Home;
+export default Home
