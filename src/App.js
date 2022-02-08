@@ -5,7 +5,7 @@ import Home from "./components/Home"
 import AddEmployee from "./components/AddEmployee"
 import Login from "./components/Login"
 import Registration from "./components/Registration"
-import { Container, Nav, Navbar, Table } from "react-bootstrap"
+import { Container, Nav, Navbar } from "react-bootstrap"
 import { useState } from "react"
 import { ContextProvider } from "./context/context"
 import EditEmployee from "./components/EditEmployee"
@@ -54,7 +54,7 @@ function App() {
                           changeLogin()
                         }}
                       >
-                        LogOut
+                        Logout
                       </Link>
                     </div>
                   </div>
